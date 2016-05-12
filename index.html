@@ -1,0 +1,25 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+
+{% include header.html %}
+<div class="home-wrap">
+
+  <div class="home-infos">
+    <!-- all the sections -->
+    {% include home-about.html %}
+    {% include home-popular-posts.html %}
+    {% include home-tags.html %}
+
+
+  </div>
+  <div class="home-posts">
+    <!-- all the sections -->
+    {% include columns.html %}
+
+  </div>
+
+</div>
+{% include footer.html %}
